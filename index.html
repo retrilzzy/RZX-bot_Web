@@ -1,55 +1,123 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RZX-bot</title>
-    <link rel="icon" type="image/x-icon" href="icon.png">
-    <style>
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      a {
-        background:
-          linear-gradient(
-            to right,
-            rgb(70, 149, 253),
-            rgb(125, 250, 250)
-          ),
-          linear-gradient(
-            to right,
-            rgb(35, 130, 255),
-            rgb(1, 106, 211)
-        );
-        background-size: 100% 3px, 0 3px;
-        background-position: 100% 100%, 0 100%;
-        background-repeat: no-repeat;
-        transition: background-size 400ms;
-      }
-
-      a:hover {
-        background-size: 0 3px, 100% 3px;
-      }
-    </style>
-</head>
-<body style="background-color: rgb(54, 83, 114); color: rgb(240, 246, 252); align-items: center; align-content: center; text-align: center;">
-    
-    <h2 style="margin-bottom: 0px">Веб-сайт пока что в разработке...</h2>
-
-    <h3 style="margin-top: 5px">Но есть документация - 
-        <a href="https://docs.rzx.ehd.lol" target="_blank">
-        docs.rzx.ehd.lol
-        </a>
-    </h3>
-
-    <h3 style="margin-bottom: 7px">Discord сервер поддержки - <a href="https://discord.gg/cEqr2Cv73j" target="_blank">.gg/cEqr2Cv73j</a></h3>
-    
-    <h3 style="margin-top: 0px"><a href="https://invite.rzx.ehd.lol/" target="_blank">
-        Ссылка приглашения</a> Discord бота RZX-bot на свой сервер
-    </h3>
-</body>
+    <head>
+        <meta charSet="utf-8"/>
+        <title>RZX-bot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div>
+            <div>
+                <navbar class="navbar">
+                    <nav class="navbar-header">
+                        <ul>
+                            <li>
+                                <a class="h-color" href="https://rzx.ehd.lol/">RZX-bot</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="navbar-items">
+                        <ul>
+                            <li>
+                                <a class="p-color" href="https://invite.rzx.ehd.lol/" target="_blank">/invite</a>
+                            </li>
+                            <li>
+                                <a class="p-color" href="https://docs.rzx.ehd.lol" target="_blank">/docs</a>
+                            </li>
+                            <li>
+                                <a class="p-color" href="https://discord.gg/cEqr2Cv73j" target="_blank">/support</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </navbar>
+            </div>
+            <div>
+                <main class="showcase">
+                    <h1 class="showcase-header h-color">RZX-bot</h1>
+                    <h2 class="showcase-header-text h-color">The only discord bot you need!</h2>
+                    <p class="showcase-para p-color">One of the awesome discord bot with tons of commands that will fill your needs in your discord server.</p>
+                    <span class="p-color">Bot is online 23.9/7!</span>
+                    <div class="showcase-btn">
+                        <button class="btn">
+                            <a class="h-color no-decoration" href="https://invite.rzx.ehd.lol/" target="_blank">Invite now!</a>
+                        </button>
+                        <button class="btn">
+                            <a class="h-color no-decoration" href="https://discord.gg/cEqr2Cv73j" target="_blank">Join support server!</a>
+                        </button>
+                    </div>
+                </main>
+            </div>
+            <section class="about-section" id="about-section">
+                <div class="about-header">
+                    <h3 class="h-color">Why use this bot?</h3>
+                </div>
+                <div class="about-container">
+                    <div class="about-card">
+                        <div>
+                            <h4 class="h-color">⚡ Commands</h4>
+                            <p class="p-color">We have more than 55 commands support in this bot.</p>
+                            <hr/>
+                        </div>
+                        <div>
+                            <h4 class="h-color">✉️ 24/7 Support</h4>
+                            <p class="p-color">Support community server for the bot available for you anytime.</p>
+                            <hr/>
+                        </div>
+                        <div>
+                            <h4 class="h-color">✏️ Customization</h4>
+                            <p class="p-color">Customizable discord bot completely FREE!</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <a class="h-color no-decoration"  href="https://docs.rzx.ehd.lol" target="_blank">Check out Commands →</a>
+                </p>
+                <section class="about-stats">
+                    <div class="about-stats-card">
+                        <h4 class="h-color">50+</h4>
+                        <p class="p-color">Total Servers</p>
+                    </div>
+                    <div class="about-stats-card">
+                        <h4 class="h-color">1400+</h4>
+                        <p class="p-color">Total Users</p>
+                    </div>
+                </section>
+            </section>
+            <div>
+                <footer class="footer">
+                    <div class="footer-sec1">
+                        <div class="footer-header">
+                            <ul>
+                                <li>
+                                    <a class="h-color" href="">RZX-bot</a>
+                                    <span style="font-size:12px;display:flex;flex-direction:row;align-items:center" class="p-color">
+                                        <img alt="online-status" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="onlineStatus" style="color:transparent" src="botStatus.svg"/>
+                                        <!-- -->
+                                        Bot is online!
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-items">
+                            <ul>
+                                <li>
+                                    <a class="p-color" href="https://discord.gg/cEqr2Cv73j" target="_blank">/support-discord-server</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-sec2">
+                        <hr/>
+                        <div class="footer-sec2-link">
+                            <a class="p-color no-decoration"  href="https://docs.rzx.ehd.lol" target="_blank">/docs</a>
+                            <a class="p-color no-decoration" href="">/privacy</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>
