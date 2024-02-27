@@ -145,13 +145,6 @@ body {
     margin: 2rem
 }
 
-@media screen and (max-width: 768px) {
-    .showcase {
-        flex-direction:row;
-        margin-bottom: 6rem;
-    }
-}
-
 .about-section {
     display: flex;
     justify-content: center;
@@ -396,7 +389,7 @@ input:checked+section.box .box-title:before {
 
 .footer .footer-sec2 hr {
     margin: 1rem 0;
-    width: 20%;
+    width: 60%;
     opacity: 20%
 }
 
