@@ -145,6 +145,12 @@ body {
     margin: 2rem
 }
 
+@media screen and (max-width: 290px) {
+    .showcase {
+        flex-direction:row
+    }
+}
+
 .about-section {
     display: flex;
     justify-content: center;
