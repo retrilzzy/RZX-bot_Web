@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch('http://node3.endelon-hosting.de:12501/api/stats');
+        const response = await fetch('https://rzx.nexcord.pro/api/stats');
         const data = await response.json();
 
         document.getElementById('guildsCount').innerText = data.guilds;
