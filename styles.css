@@ -12,7 +12,6 @@ body {
     background-color: #080808;
     animation: bodyFadeIn 1.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(8,8,8,0);
-    background-image: radial-gradient(rgba(68,77,247,.247) .5px,transparent 0),radial-gradient(rgba(68,77,247,.769) .5px,#080808 0);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px
 }
@@ -394,7 +393,7 @@ input:checked+section.box .box-title:before {
 }
 
 .footer .footer-sec2 hr {
-    margin: 1rem 0;
+    margin: .7rem 0;
     width: 60%;
     opacity: 20%
 }
