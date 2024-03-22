@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch('https://razy.ehsites.de:8080/api/stats');
+        const response = await fetch('https://dev.rzx-bot.top:8080/api/stats');
         const data = await response.json();
 
         document.getElementById('guildsCount').innerText = data.guilds;
