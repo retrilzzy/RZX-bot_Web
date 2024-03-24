@@ -8,7 +8,7 @@
 body {
     font-family: Poppins,sans-serif;
     width: 97%;
-    margin: auto!important;
+    margin: auto !important;
     background-color: #080808;
     animation: bodyFadeIn 1.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(8,8,8,0);
@@ -36,7 +36,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 5px
+    border-radius: 3px
 }
 
 .p-color {
@@ -75,40 +75,59 @@ body {
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     display: flex;
-    padding: 1.8rem 2rem;
+    padding: 1.5rem 2rem;
     border-radius: 3px;
     border: 1px solid hsla(0,0%,80%,.129);
     flex-wrap: wrap;
-    margin: 1.4rem;
+    margin: 5px;
     justify-content: space-between;
-    width: auto
+    width: auto;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-header a {
     font-size: 1.1rem;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .navbar ul {
     list-style: none;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: row
 }
 
 .navbar ul li {
-    padding: .6rem
+    padding: .6rem;
 }
 
 .navbar ul li a {
     font-size: .9rem;
     text-decoration: none;
-    transition: all .3s ease-in-out
+    transition: all .4s ease-in-out;
 }
 
 .navbar ul li a:hover {
-    color: #e7e7e7
+    color: #e7e7e7;
 }
+
+.navbar.small {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 3px 0 0 8px;
+}
+
+.navbar.small .navbar-header a {
+    font-size: 1rem;
+}
+
+.navbar.small ul li a {
+    font-size: 0.8rem;
+}
+
 
 .showcase {
     display: flex;
