@@ -24,9 +24,12 @@ window.onload = fetchData;
 
 window.addEventListener('scroll', function() {
     var navbar = document.getElementById('navbar');
+    var showcase = document.getElementById('showcase');
     if (window.scrollY > 0) {
         navbar.classList.add('small');
+        showcase.classList.add('small');
     } else {
         navbar.classList.remove('small');
+        showcase.classList.remove('small');
     }
 });

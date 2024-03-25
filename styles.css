@@ -79,7 +79,7 @@ body {
     border-radius: 3px;
     border: 1px solid hsla(0,0%,80%,.129);
     flex-wrap: wrap;
-    margin: 5px;
+    margin: 15px 10px 0 18px;
     justify-content: space-between;
     width: auto;
     z-index: 999;
@@ -112,22 +112,12 @@ body {
 }
 
 .navbar.small {
-    padding: 10px;
+    padding: 10px 32px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    margin: 3px 0 0 8px;
 }
-
-.navbar.small .navbar-header a {
-    font-size: 1rem;
-}
-
-.navbar.small ul li a {
-    font-size: 0.8rem;
-}
-
 
 .showcase {
     display: flex;
@@ -137,7 +127,11 @@ body {
     align-items: center;
     height: 30rem;
     flex-direction: column;
-    margin: .5rem
+    margin: .5rem;
+}
+
+.showcase.small {
+    margin-top: 110px;
 }
 
 .showcase .showcase-header {
@@ -166,6 +160,12 @@ body {
 @media screen and (max-width: 290px) {
     .showcase {
         flex-direction:row
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .showcase.small {
+        margin-top: 153px;
     }
 }
 
@@ -379,7 +379,7 @@ input:checked+section.box .box-title:before {
     padding: 1.8rem 2rem;
     border-radius: 3px;
     flex-wrap: wrap;
-    margin: 1.4rem;
+    margin: 18px;
     justify-content: space-between;
     flex-direction: row;
     width: auto
