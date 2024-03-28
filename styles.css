@@ -33,7 +33,7 @@ body {
 
 ::-webkit-scrollbar-track {
     background: #0F121A;
-    -webkit-box-shadow: inset 0px 0px 6px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: inset 0px 0px 6px rgba(255, 255, 255, 0.12);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -119,6 +119,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
+}
+
+.navbar.small li {
+    padding: 4px 6px;
 }
 
 .showcase {
@@ -426,7 +430,7 @@ input:checked+section.box .box-title:before {
 
 .footer .footer-sec2 .footer-sec2-link {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .footer .footer-sec2 .footer-sec2-link a {
