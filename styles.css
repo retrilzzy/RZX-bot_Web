@@ -119,17 +119,15 @@ body {
     color: #e7e7e7;
 }
 
-/* .navbar.small {
-    padding: 10px 32px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-} */
+.navbar.small {
+    padding: 10px 20px;
+    transition: all .4s ease-in-out;
+}
 
-/* .navbar.small li {
+.navbar.small li {
     padding: 4px 6px;
-} */
+    transition: all .4s ease-in-out;
+}
 
 .showcase {
     display: flex;
@@ -141,10 +139,6 @@ body {
     flex-direction: column;
     margin: .5rem;
 }
-
-/* .showcase.small {
-    margin-top: 110px;
-} */
 
 .showcase .showcase-header {
     font-weight: 900;
