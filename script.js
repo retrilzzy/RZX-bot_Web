@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch('https://api.rzx-bot.top/api/stats', {
+        const response = await fetch('https://dash.rzx-bot.top/api/stats', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
